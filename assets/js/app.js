@@ -4,8 +4,14 @@ createApp({
     data() {
       return {
         message: 'Hello world!',
-        image: 'https://picsum.photos/200/300'
+        image: 'https://picsum.photos/200/300',
+        active:false
       }
+    },
+    methods:{
+        changeColor(){
+            this.active = !this.active
+        }
     }
 }).mount('#app')
 

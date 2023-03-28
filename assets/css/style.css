@@ -1,0 +1,11 @@
+.change{
+    color: rgb(120, 224, 189);
+    transition: 2s;
+}
+
+button{
+    display: block;
+    background-color: burlywood;
+    padding: 1rem;
+    border-radius: 2rem;
+}
